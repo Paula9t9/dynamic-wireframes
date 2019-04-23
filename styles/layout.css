@@ -10,8 +10,13 @@
 
 
 .cd {
-  height: 125px;
   line-height: 125px;
+}
+
+.cd:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .efgh {
@@ -19,7 +24,15 @@
   margin: 0px auto;
 }
 
+.efgh:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .i {
   height: 80px;
   line-height: 80px;
 }
+
+

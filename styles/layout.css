@@ -22,7 +22,7 @@
 }
 
 .efgh {
-  max-width: 500px;
+  max-width: 480px;
   margin: 0px auto;
 }
 
@@ -40,6 +40,6 @@
 
 @media only screen and (min-width: 768px){
   .efgh {
-    max-width: 1000px;
+    max-width: 960px;
   }
 }

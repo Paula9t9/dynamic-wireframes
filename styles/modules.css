@@ -1,0 +1,8 @@
+.efgh p {
+  display: inline-block;
+  float: left;
+  width: 250px;
+  height: 240px;
+  margin: 0px;
+  padding: 0px;
+}

@@ -1,11 +1,13 @@
 .a {
   height: 75px;
   line-height: 75px;
+  background-color: azure;
 }
 
 .b {
   height: 150px;
   line-height: 150px;
+  background-color: bisque;
 }
 
 
@@ -33,6 +35,11 @@
 .i {
   height: 80px;
   line-height: 80px;
+  background-color: indigo;
 }
 
-
+@media only screen and (min-width: 768px){
+  .efgh {
+    max-width: 1000px;
+  }
+}

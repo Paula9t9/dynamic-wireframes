@@ -1,0 +1,54 @@
+.efgh p {
+  display: inline-block;
+  float: left;
+  width: 240px;
+  height: 250px;
+  line-height: 250px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#c {
+  background-color: cadetblue;
+}
+
+#d {
+  background-color: darkgreen;
+}
+
+#e {
+  background-color: grey;
+}
+
+#f {
+  background-color: firebrick;
+}
+
+#g {
+  background-color: goldenrod;
+}
+
+#h {
+  background-color: honeydew;
+}
+
+@media only screen and (min-width: 768px){
+  .cd p {
+    display: inline-block;
+    float: left;
+    width: 380px;
+    height: 200px;
+  }
+
+  .efgh p {
+    display: inline-block;
+    float: left;
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  
+}

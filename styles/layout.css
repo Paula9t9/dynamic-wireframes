@@ -38,31 +38,55 @@
   background-color: indigo;
 }
 
+.i:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Desktop  */
 @media only screen and (min-width: 768px){
 
   .a {
     height: 100px;
+    max-width: 960px;
+  }
+
+  .desktop-center {
+    margin: 0px auto;
+    margin-left: 100px;
   }
 
   .b {
+    display: inline-block;
     float: left;
-    width: 200px;
+    width: 21%;
+    max-width: 200px;
     height: 600px;
   }
 
   .cd {
+    float:left;
     max-height: 200px;
+    max-width: 760px;
     clear: right;
   }
 
   .efgh {
-    max-width: 960px;
+    float: left;
+    width: 96%;
+    max-width: 760px;
+    height: 78%;
+    max-height: 250px;
     clear: right;
   }
 
   .i {
-    width: 760px;
+    float: left;
+    width: 79%;
+    max-width: 760px;
     height: 150px;
+    max-height: 150px;
   }
 
 

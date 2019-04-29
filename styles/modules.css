@@ -1,6 +1,5 @@
 .efgh p {
   display: inline-block;
-  float: left;
   width: 240px;
   height: 250px;
   line-height: 250px;
@@ -33,16 +32,15 @@
 }
 
 @media only screen and (min-width: 768px){
+  
   .cd p {
     display: inline-block;
-    float: left;
     width: 380px;
     height: 200px;
   }
 
   .efgh p {
     display: inline-block;
-    float: left;
     width: 190px;
     height: 250px;
     line-height: 250px;
@@ -50,5 +48,95 @@
     padding: 0px;
   }
 
+  .a {
+    background-color: burlywood;
+  }
+
+  .b {
+    background-color: gray;
+  }
+
+  #c {
+    background-color: royalblue;
+  }
   
+  #d {
+    background-color: olivedrab;
+  }
+  
+  #e {
+    background-color: yellowgreen;
+  }
+  
+  #f {
+    background-color: orange;
+  }
+  
+  #g {
+    background-color: blueviolet;
+  }
+  
+  #h {
+    background-color: gray;
+  }
+  
+  .i {
+    background-color: green;
+  }
+
+}
+
+@media only screen and (min-width: 1050px){
+  
+  .cd p {
+    display: inline-block;
+    width: 380px;
+    height: 200px;
+  }
+
+  .efgh p {
+    display: inline-block;
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .a {
+    background-color: yellowgreen;
+  }
+
+  .b {
+    background-color: wheat;
+  }
+
+  #c {
+    background-color: violet;
+  }
+  
+  #d {
+    background-color: teal;
+  }
+  
+  #e {
+    background-color: slateblue;
+  }
+  
+  #f {
+    background-color: rebeccapurple;
+  }
+  
+  #g {
+    background-color: paleturquoise;
+  }
+  
+  #h {
+    background-color: orchid;
+  }
+  
+  .i {
+    background-color: navy;
+  }
+
 }
